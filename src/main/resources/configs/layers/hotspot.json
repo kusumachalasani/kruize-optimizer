@@ -40,7 +40,7 @@
       },
       {
         "datasource": "prometheus",
-        "query": "container_cpu_usage_seconds_total{} * on(namespace, pod) group_left(ibm_runtimes_intelligence_monitoring) kube_pod_labels{ibm_runtimes_intelligence_monitoring=\"true\"}",
+        "query": "container_cpu_usage_seconds_total{} * on(namespace, pod) group_left(label_ibm_runtimes_intelligence_monitoring) kube_pod_labels{label_ibm_runtimes_intelligence_monitoring=\"true\"}",
         "key": "pod"
       }
 
