@@ -16,6 +16,7 @@
     "semeru",
     "hotspot",
     "quarkus"
+    "jvm"
   ],
   "bulk_configs": [
     {
