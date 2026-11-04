@@ -15,7 +15,7 @@
     "container",
     "semeru",
     "hotspot",
-    "quarkus"
+    "quarkus",
     "jvm"
   ],
   "bulk_configs": [
